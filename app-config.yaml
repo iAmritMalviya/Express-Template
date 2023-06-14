@@ -4,6 +4,9 @@ metadata:
   name: express-generator
   description: |
     Express is the framework of nodejs.
+  tags:
+    - java
+    - data
   links:
     - title: Website
       url: https://expressjs.com/en/starter/generator.html
@@ -17,4 +20,4 @@ spec:
   type: library
   owner: CNCF
   lifecycle: experimental
-tags: javascript, ejs, html
+
