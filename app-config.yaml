@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: express-generator
+  description: |
+    Express is the framework of nodejs.
+  links:
+    - title: Website
+      url: https://expressjs.com/en/starter/generator.html
+    - title: Documentation
+      url: https://expressjs.com/en/starter/installing.html
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://expressjs.com
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
